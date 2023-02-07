@@ -35,12 +35,15 @@ public class LoginController
     void mostrarVentanaHome(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("home.fxml"));
         Parent root = fxmlLoader.load();
+        HomeController controller = fxmlLoader.getController();
         Scene scene = new Scene(root);
         Stage stage = new Stage();
-        stage.getIcons().add(new Image(LoginController.class.getResourceAsStream("assets/inventario-icon.png")));
-        stage.setTitle("Inventory System");
+        stage.getIcons().add(new Image(LoginController.class.getResourceAsStream("assets/iconpharmacy.png")));
+        stage.setTitle("EcoPharmacy System");
         stage.setScene(scene);
         stage.setAlwaysOnTop(true);
+        controller.setStage(stage);
+        controller.setController(this);
         comprobarUsuario(stage);
     }
 

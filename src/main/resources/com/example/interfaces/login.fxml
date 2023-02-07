@@ -38,6 +38,11 @@
                   <Font name="System Bold Italic" size="11.0" />
                </font>
             </Label>
+            <Label fx:id="messageTXT" layoutX="61.0" layoutY="304.0" prefHeight="34.0" prefWidth="222.0" textFill="#ff7a65">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
          </children></AnchorPane>
       <Label alignment="TOP_CENTER" layoutX="26.0" layoutY="170.0" prefHeight="78.0" prefWidth="346.0" text="BIENVENIDO" textFill="WHITE">
          <font>
