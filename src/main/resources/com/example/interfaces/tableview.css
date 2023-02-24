@@ -2,12 +2,12 @@
     -fx-cursor:hand ;
 }
 .table-view {
-    -fx-background-color: #8bd160;
+    -fx-background-color: #256D85;
     -fx-background-radius:14 14 0 0;
 
 }
 .table-view .column-header-background{
-    -fx-background-color:  #8bd160;
+    -fx-background-color:  #256D85;
     -fx-background-radius:14;
     -fx-background-insets: 0 0 10 0;
 

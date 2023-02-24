@@ -10,7 +10,7 @@ public class DataConexion implements ConectarBDD
 {
     private static final String URL = "jdbc:mysql://localhost:3306/farmaciatyt";
     private static final String USER = "root";
-    private static final String PASSWORD = "toor";
+    private static final String PASSWORD = "Danny.2002";
     private static DataConexion instancia;
     private Connection conn;
 
